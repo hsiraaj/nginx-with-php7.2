@@ -1,5 +1,5 @@
 # nginx-with-php7.2
-A shell script to install Nginx and PHP 7.2
+A shell script to install Nginx and PHP 7.2. This script is tested on Ubuntu 16.04.
 
 Download "install.sh" file and execut/run it. You may have to give execute permission in order to run the file.
 
