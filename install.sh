@@ -19,8 +19,8 @@ printf "\033[32m Done \033[0m\n"
 printf "\033[32m Installing PHP7.2...\033[0m\n"
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:ondrej/php
-sudo apt install php7.2-fpm php7.2-common php7.2-mbstring php7.2-xmlrpc php7.2-soap php7.$
+sudo apt install php7.2-fpm php7.2-common php7.2-mbstring php7.2-xmlrpc php7.2-soap php7.2-gd php7.2-xml php7.2-intl php7.2-mysql php7.2-cli php7.2-zip php7.2-curl php7.2-mysql php7.1-sqlite3
 sudo systemctl restart nginx.service
 printf "\033[32m Done \033[0m\n\n"
-printf "\033[32m Depeding on your application and needs, you may have to enable some exte$
+printf "\033[32m Depeding on your application and needs, you may have to enable some extensions. \033[0m\n"
 printf "\033[32m THANK YOU :) \033[0m\n"
